@@ -48,7 +48,7 @@ namespace AllForOne.Services
 
         public string GetRestaurant(string category)
         {
-            runs = (category.Contains("Mexican") || category.Contains("Chinese") || category.Contains("Fast Food"));
+            runs = (category == "Mexican" || category == "Chinese" || category == "Fast Food");
             if (runs == false)
             {
                 response = "Please select from one of the categories: Mexican, Chinese, or Fast Food";
