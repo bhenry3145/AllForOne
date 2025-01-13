@@ -107,7 +107,6 @@ namespace AllForOne.Services
                 }
                 else if (category == "Chinese")
                 {
-                    int newNum;
                     randomNum = rng.Next(1, 11);
                     switch (randomNum)
                     {
