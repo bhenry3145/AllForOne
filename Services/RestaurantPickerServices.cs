@@ -55,7 +55,7 @@ namespace AllForOne.Services
             }
             else
             {
-                if (category.Contains("Mexican"))
+                if (category == "Mexican")
                 {
                     randomNum = rng.Next(1, 11);
                     switch (randomNum)
@@ -105,7 +105,7 @@ namespace AllForOne.Services
                             break;
                     }
                 }
-                else if (category.Contains("Chinese"))
+                else if (category == "Chinese")
                 {
                     int newNum;
                     randomNum = rng.Next(1, 11);
@@ -156,7 +156,7 @@ namespace AllForOne.Services
                             break;
                     }
                 }
-                else if (category.Contains("Fast Food"))
+                else if (category == "Fast Food")
                 {
                     randomNum = rng.Next(1, 11);
                     switch (randomNum)
